@@ -15,9 +15,7 @@ import {
   AboutPage,
   HomePage,
   TabsPage,
-  QrCodeModalPage,
-  ContactDetailPage,
-} from '../pages/pages'
+} from '../pages/pages';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -26,15 +24,12 @@ import { ToastProvider } from '../providers/toast/toast';
 
 import { AppReducer } from '../reducers/AppReducer';
 
-
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     HomePage,
     TabsPage,
-    ContactDetailPage,
-    QrCodeModalPage
   ],
   imports: [
     BrowserModule,
@@ -56,8 +51,6 @@ import { AppReducer } from '../reducers/AppReducer';
     AboutPage,
     HomePage,
     TabsPage,
-    ContactDetailPage,
-    QrCodeModalPage
   ],
   providers: [
     StatusBar,
